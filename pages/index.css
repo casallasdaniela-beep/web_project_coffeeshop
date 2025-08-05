@@ -55,10 +55,6 @@
   background-repeat: no-repeat;
 }
 
-.header__content {
-  margin: 30px 80px 40px 80px;
-}
-
 .header__title {
   max-width: 709px;
   font-family: "Inter";
@@ -67,9 +63,10 @@
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
+  margin-left: 80px;
 }
 
-.header__highlight {
+.header__span-accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -88,6 +85,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 28px;
+  margin-left: 80px;
 }
 
 .header__image {
