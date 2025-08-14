@@ -10,10 +10,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 0px;
 }
 
 .header__title {
-  max-width: 709px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -21,6 +21,7 @@
   line-height: 72px;
   letter-spacing: -1px;
   margin-left: 80px;
+  margin-top: 100px;
 }
 
 .header__span-accent {
@@ -49,8 +50,9 @@
   width: 646px;
   height: 568px;
   position: absolute;
-  top: 124px;
-  right: 80px;
+  top: 78px;
+  right: 0px;
+  margin right: auto;
 }
 
 .header__footer {
@@ -64,11 +66,13 @@
   margin-right: 80px;
   margin-bottom: 40px;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .header__schedule {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .header__hours {
@@ -97,5 +101,9 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
-  max-width: 240px;
+  margin-left: 971px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
