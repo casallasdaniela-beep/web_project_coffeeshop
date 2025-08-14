@@ -75,7 +75,7 @@
   flex: 1;
 }
 
-.header__hours {
+.header__paragraph-hours {
   font-family: "Inter";
   font-weight: 500;
   font-size: 16px;
@@ -87,14 +87,14 @@
   padding: 0;
 }
 
-.header__days {
+.header__paragraph-days {
   display: flex;
   flex-direction: column;
   margin: 0;
   border: none;
 }
 
-.header__address {
+.header__paragraph-address {
   margin-top: auto;
   font-family: "Inter";
   font-weight: 500;
